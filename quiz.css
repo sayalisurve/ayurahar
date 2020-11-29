@@ -1,0 +1,83 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+.container1{
+    color:#f9d342;
+    background-color:#292826;
+    padding: 35px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    font-family:'Playfair Display', serif;
+}
+
+.container3{
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color:#292826;
+    margin-left: 36%;
+}
+#welcome{
+    letter-spacing: 10px;
+}
+.button{
+    text-align: center;
+}
+html{
+    display: inline;
+}
+.container2{
+    text-align: center;
+    margin: 0px 0px;
+    background-color: #f9d342;
+    padding: 14px;
+    line-height: 0.9;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+     font-family:'Playfair Display', serif;
+}
+.container{
+    text-align: center;
+}
+
+.button{
+    
+    color:black;
+    background: #f9d342;
+    padding: 8px 12px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.containerdosha{
+    border: 2px solid black;
+    text-align: center;
+}
+#result{
+    padding: 20px;
+    text-align: center;
+    color: #f9d342 ;
+    background-color:#292826;
+    font-family:'Playfair Display', serif;
+}
+.final{
+    text-align: center;
+    background-color:#292826;
+    padding-bottom: 20px;
+}
+#for{
+    color: #292826;
+    background-color:#f9d342 ;
+    padding: 20px;
+    text-align: center;
+    font-family:'Playfair Display', serif;
+}
+#ana{
+    font-size: 15px;
+}
+

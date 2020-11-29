@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dosha Imbalance</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "images/logo.png" type = "image/png">
+	
+</head>
+<style>
+    p{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    h1{
+        padding-left: 20px;
+        text-align: center;
+    }
+    h2{
+        padding-left: 20px;
+        text-align: center;
+    }
+    .box{
+        width: 500px; 
+        border: 5px solid black; 
+        padding-left: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>
+<body>
+	<header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span></span>
+                    
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>AyurAhar</h2>
+                <h3>Dosha Imbalance</h3>
+                
+                <button type="button" onclick="loadDoc()">Know More</button>
+
+<p id="demo"></p>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "imbalance.txt", true);
+  xhttp.send();
+}
+</script>                
+
+                
+                
+                
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "bodytypes.html">Doshas</a></li>
+                <li><a href = "vata.html"> Vata Dosha</a></li>
+                <li><a href = "pitta.html">Pitta Dosha</a></li>
+                <li><a href = "kapha.html">Kapha Dosha</a></li>
+                <li><a href = "ayurvedicdiet.html">Dosha Imbalance</a></li>
+                <li><a href = "mealplan.html">Meal Plan</a></li>
+                <li><a href = "yoga.html">Yoga And Meditation</a></li>
+            </ul>
+            
+            <button class = "btn log-out">log out</button>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+        
+            <h1>What is dosha imbalance?</h1>
+            <p>Imbalances in the doshas are generally caused by unsupportive diet and lifestyle choices, as well as stress or emotional trauma. These disturbances tend to upset the natural state of internal equilibrium represented by the constitution. When the doshas become aggravated, each of them disrupts the body in its own unique way. Therefore, vata, pitta, and kapha are each associated with a particular set of health challenges and tendencies toward disease.
+           </p>
+           <div class="box">
+           <img src="imbalance.jpg">
+           </div> 
+           <br>
+           <p>
+            While we are all susceptible to an excess in any of the three doshas, we also tend to be somewhat predisposed to imbalances in our predominant doshas. In other words, vata-pitta predominant individuals will usually tend toward vata and pitta imbalances before kapha imbalances. If you are just becoming familiar with how the doshas affect your day-to-day life, this awareness can be very helpful. 
+           </p>
+           <br>
+           <br>
+        
+            <h2>Imbalanced Vata</h2>
+            <p>In this case, it causes fear, anxiety, isolation, loneliness, and exhaustion. It can lead to both physical and energetic depletion, disrupt proper communication, and cause all sorts of abnormal movements in the body, such as tics, tremors, and muscle spasms.
+            </p>
+            <br>
+        
+            <h2>Imbalanced Pitta</h2>
+            <p>When out of balance, pitta causes fiery, reactionary emotions such as frustration, anger, jealousy. Imbalanced pitta is often at the root of inflammatory disorders, which can affect organs and tissues throughout the body.
+            </p>
+            <br>
+            <h2>Imbalanced Kapha</h2>
+            <p>When out of balance, kapha triggers emotions of attachment, greed, and possessiveness and can also create stubbornness, lethargy, and resistance to change. Physically, kapha tends to invite stagnation and congestion in organs and tissues throughout the body—including the mind.
+            </p>
+            <br>
+            <br>
+            <h2>Why the doshas should be balanced?</h2>
+            <p>In order to keep a good health it is important to balance the current state doshas with your birth state or else an imbalance in doshas can occur.Vikruti is the term used to denote this term.</p>
+            <br>
+            <br>
+            <h2>Befriending The Doshas</h2>
+            <p>It is important to remember that we all have innate strengths and gifts, as well as persistent challenge areas. The doshas are a wonderful tool for understanding both, and also for recognizing and correcting any imbalances at work in our systems. Invariably, the doshas shed light on our personal nuances, guide us in improving self-awareness, and can help us to understand how to offer support—precisely where and when it matters most. As a result, cultivating a relationship with each of the three doshas can have a transformative impact on your overall health and well-being.</p>
+            <br><br>
+        
+    
+        <script src="script.js"></script>
+    </body>
+</html>

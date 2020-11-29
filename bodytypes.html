@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bodytypes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "images/logo.png" type = "image/png">
+	
+</head>
+<style>
+    p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #one{
+        text-align: center;
+    }
+    #two{
+        text-align: center;
+    }
+    h1{
+        padding-left: 20px;
+    }
+    h2{
+        padding-left: 20px;
+    }
+    .box{
+        width: 500px; 
+        border: 5px solid black; 
+        padding-left: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>
+
+<body>
+	<header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span></span>
+                    
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>AyurAhar</h2>
+                <h3>Doshas</h3>
+                
+                
+                <button type="button" onclick="loadDoc()">Know More</button>
+
+<p id="demo"></p>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "bodytypes.txt", true);
+  xhttp.send();
+}
+</script>
+
+    
+                
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "bodytypes.html">Doshas</a></li>
+                <li><a href = "vata.html">Vata Dosha</a></li>
+                <li><a href = "pitta.html">Pitta Dosha</a></li>
+                <li><a href = "kapha.html">Kapha Dosha</a></li>
+                <li><a href = "ayurvedicdiet.html">Dosha Imbalance</a></li>
+                <li><a href = "mealplan.html">Meal Plan</a></li>
+                <li><a href = "yoga.html">Yoga And Meditation</a></li>
+            </ul>
+            
+            <button class = "btn log-out">log out</button>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+        <p id="one">
+        	<strong>The definition of Ayurveda is the dynamic state of balance between mind, body and environment.</strong>
+        </p>
+        <div class="box">
+        <img src="Ayurveda.jpg">
+        </div>
+        <br>
+        <p id="two">
+            Ayurveda is one of the fastest modes to good health as Ayurveda follows a simple path that is developed or is appropriate to your body type or dosha. Ayurveda follows the concept of understanding the doshas in order to heal oneself. The three ayurvedic body types, or doshas, are Vata, Pitta and Kapha. Each type of dosha has a unique set of characteristics and the body type of a person depends on their physical and emotional attributes. To maintain good health and state of mind it is necessary to know your dosha, in order to practice suitable diet, exercise and lifestyle pattern. Today, we dig deep into the Ayurveda concept, and help you to find out which dosha you actually belong to so that you can attain good health.
+        </p>
+        
+        <h1>Benefits of knowing your Ayurvedic body type</h1>
+        <p>
+            -Personal analysis of dosha helps you know about your body and its requirements
+        </p>
+        <br>
+        <p>
+            -Knowing your dosha can help you maintain optimal health.
+        </p>
+        <br>
+        <p>
+            -It will help you to maintain a good and balanced personal, family and professional life
+        </p>
+        <br>
+        <p>
+            -Helps you to plan your lifestyle according to the requirements of your body
+        </p>
+        <br>
+        <p>
+            -Dosha analysis will help you plan a balanced diet
+        </p>
+        <br>
+        <p>
+            -This can help you to know how an imbalance is likely to occur in yourself.
+        </p>
+        <br>
+        <p>
+            Ayurveda divides all living beings, not just humans, into three distinct body types based on their constitution. Each unique constitution is determined by what basic element is dominant in their bodies. 
+        </p>
+        <br>
+        <p>
+            These unique body types are called Vata body type, Pitta body type, and Kapha body type depending on the element that is dominant in their body.
+        </p>
+        <br>
+        <p>
+            Everybody is made up of all five elements: Earth, Air, Fire, Water, and Space and as a result, each body also has all three basic energies of Vata, Pitta and Kapha. This is fundamental to all.
+        </p>
+        <br>
+        <p><strong>Imagine the 5 inert elements coming together and transforming into 3 dynamic energies called doshas. 
+        </strong></p> 
+        <p>
+            <strong>Vata</strong> is characterized by the mobile nature of Wind (Air) energy.
+            <br>
+
+            <strong>Pitta</strong> embodies the transformative nature of Fire energy.
+            <br>
+            And <strong>Kapha</strong> reflects the binding nature of Water energy.
+        </p>
+        <br>
+    
+        <h1>The Qualitative Nature of the Doshas</h1>
+        <p>Each dosha is characterized by a collection of qualities that support its particular energetic:</p>
+        <h2>Vata</h2>
+        <div class="box">
+        <img src="vata.jpg">
+        </div>
+        <p>Body structure : People belonging to this class, generally find it difficult to gain weight. As they have fast metabolism, they are thin with prominent bony structures, they tend to be cold most of the time and have dry skin and hair. They also have little muscle tone. Their pulses are fast and weak.</p>
+        <br>
+        <p>Lifestyle : They are very active, mobile, restless and energetic. Their sleeping, eating and personal habits are usually irregular and erratic. Their sexual desire keeps on varying between extremes. As they sleep lightly and are easily disturbed, they are more prone to sleep disorder like insomnia.</p>
+        <br>
+        <p>Communication :Their mode of speech is generally very fast, they are talkative and enjoying talking a lot.</p>
+        <br>
+        <p>Mental state : Mentally and emotionally they are very quick. They are quick at gathering or displaying information’s or emotions. They tend to learn fast but their retention poor is weak, thus they forget fast as well.</p>
+        <br>
+        <p>Nature : Vata people are generally shy, modest and are low in confidence. They are often impatient but very flexible and adaptable to change. They usually feel stressed or worried under unfamiliar or bad situation. They are most likely to be loners, or non-conformists. They spent money quickly. They are highly creative and sensitive.</p>
+        <br>
+        <p>Vata embodies the energy of movement and is therefore often associated with wind (and the air element). Vata is linked to creativity and flexibility; it governs all movement—the flow of the breath, the pulsation of the heart, all muscle contractions, tissue movements, cellular mobility—and communication throughout the mind and the nervous system.
+        </p>
+        <br>
+        <h2>Pitta</h2>
+        <div class="box">
+            <img src="pitta.jpg">
+        </div>
+        <p>Body structure : People belonging to this class are medium build. They have good muscle tone and they always feel warm. They have premature gray hair or a victim of early balding. They have reddish complexion, enjoy high energy level and have a good digestive system. Their skin is soft, warm often develop freckles, moles and are sunburned easily.
+        </p>
+        <br>    
+        <p>Lifestyle : Their desire for food and sex is very strong. Their sleep is moderate and is not easily disturbed. Their pulse is strong. They often dominate any conversation. They dislike hot weather, sunlight and heat.</p>
+        <br>
+        <p>Communication : They usually speak loudly and with passion.</p>
+        <br>
+        <p>Mental state : They are extremely intelligent, focused and ambitious people. Emotionally, they are passionate about life, have a tendency to be perfectionists, and can become easily irritated.</p>
+        <br>
+        <p>Nature : They are usually extroverts and love to be the centre of attention. They manage money very carefully. They often aspire to attain positions of leaders. They enjoy competitive sports and games, either as spectators or participants. Their intelligence is high, and they have good insight and a keen sense of discrimination.</p>
+        <br>
+        <p>Pitta represents the energy of transformation and is therefore closely aligned with the fire element. But in living organisms, pitta is largely liquid, which is why water is its secondary element. Pitta is neither mobile nor stable, but spreads—much as the warmth of a fire permeates its surroundings, or as water flows in the direction dictated by the terrain. Pitta is closely related to intelligence, understanding, and the digestion of foods, thoughts, emotions, and experiences; it governs nutrition and metabolism, body temperature, and the light of understanding.</p>
+        <br>
+        <h2>Kapha</h2>
+        <div class=box>
+            <img src="kapha.jpg">
+        </div>
+        <p>Body structure : People belonging to this class usually have the largest of all the body types. Physically they have wide hips and shoulders. They have thick and wavy hair. They generally have a very good stamina. They are often overweight and tend to gain weight very easily. Their teeth are strong and very well formed. Their pulse is slow and steady.</p>
+        <br>
+        <p>Lifestyle : They usually have a moderate or low appetite and their digestion is very slow. They enjoy eating luxury foods which tastes and smells good. In physical activity they are very slow. However, they are also very sluggish, lethargic and difficult to motivate. They love to sleep a lot.</p>
+        <br>
+        <p>Communication : They have a pleasant appearance and voice.</p>
+        <br>
+        <p>Mental state : They are slow learners, but their memory is very great. Emotionally, they tend to be very loyal and stable.</p>
+        <br>
+        <p>Nature : They like to be familiar surroundings. They are money-savers and they are very good providers as well. Typically, they are serene and tranquil and their emotions are slow to become excited or aroused. However, they can be sentimental, nostalgic and romantic in nature. They are highly tolerant and forgiving, with medium intelligence. They prefer to belong to a group, club or community. They cling to their family or familiar associations.
+        </p>
+        <br>
+        <p>Kapha lends structure, solidity, and cohesiveness to all things, and is therefore associated primarily with the earth and water elements. Kapha also embodies the watery energies of love and compassion. This dosha hydrates all cells and systems, lubricates the joints, moisturizes the skin, maintains immunity, and protects the tissues.</p>
+        </section>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
